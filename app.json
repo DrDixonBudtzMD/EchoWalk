@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "EchoWalk",
+    "slug": "echowalk",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.groundstate.echowalk",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "EchoWalk uses the camera as an optional visual aid while sonar is active.",
+          "microphonePermission": "EchoWalk uses the microphone to listen for echoes from its acoustic sonar pulses.",
+          "recordAudioAndroid": true,
+          "barcodeScannerEnabled": false
+        }
+      ]
+    ]
+  }
+}
