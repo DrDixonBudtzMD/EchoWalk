@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+apply from: project(":expo-modules-core").projectDir.absolutePath + "/ExpoModulesCorePlugin.gradle"
+applyKotlinExpoModulesCorePlugin()
+useExpoPublishing()
+
+android {
+  namespace "expo.modules.echowalksonar"
+  defaultConfig {
+    minSdkVersion safeExtGet("minSdkVersion", 24)
+    targetSdkVersion safeExtGet("targetSdkVersion", 36)
+  }
+}
