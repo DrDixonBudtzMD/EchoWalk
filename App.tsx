@@ -140,6 +140,7 @@ export default function App() {
       return;
     }
 
+    const sonar = EchoWalkSonar;
     let cancelled = false;
 
     const sample = async () => {
@@ -147,7 +148,7 @@ export default function App() {
       busyRef.current = true;
 
       try {
-        const next = await EchoWalkSonar.pingAndMeasure();
+        const next = await sonar.pingAndMeasure();
         if (cancelled) return;
         setReading(next);
         applyReading(next);
