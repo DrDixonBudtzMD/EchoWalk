@@ -1,12 +1,11 @@
-# Support Groundstate Technology LLC
+# Support EchoWalk / Groundstate Technology
 
-EchoWalk is developed as an open research and accessibility project by Groundstate Technology LLC.
+EchoWalk is developed by Groundstate Technology LLC as an experimental accessibility research project.
 
-If you want to support continued prototyping, testing, documentation, accessibility research, and development across Groundstate projects, you can use the official Groundstate support channels:
+Support links:
 
 - Patreon: https://www.patreon.com/cw/groundstate_technology_llc
 - PayPal: https://www.paypal.com/ncp/payment/N4EYQ56NTJ28E
+- Kickstarter profile: https://www.kickstarter.com/profile/groundstateos
 
-Financial support is voluntary. It does not purchase equity, membership interests, ownership of Groundstate Technology LLC, intellectual-property ownership, priority over maintainers, certification, medical/accessibility validation, or special licensing rights unless a separate written agreement expressly provides otherwise.
-
-For code contributions, use the repository's normal issue and pull-request workflow and review `CONTRIBUTING.md`.
+Financial support does not purchase ownership, equity, IP rights, special licensing rights, medical/accessibility claims, or control over the project roadmap. EchoWalk remains experimental software and must not replace established mobility aids or professional orientation-and-mobility guidance.

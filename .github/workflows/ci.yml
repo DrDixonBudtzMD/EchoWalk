@@ -2,9 +2,9 @@ name: EchoWalk CI
 
 on:
   push:
-    branches: ["The-Citadel"]
+    branches: ["main"]
   pull_request:
-    branches: ["The-Citadel"]
+    branches: ["main"]
 
 permissions:
   contents: read
