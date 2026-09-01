@@ -141,6 +141,7 @@ export default function App() {
       return;
     }
 
+    const sonar = EchoWalkSonar;
     let cancelled = false;
 
     const sample = async () => {
