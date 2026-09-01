@@ -7,17 +7,18 @@
     "start": "expo start",
     "android": "expo run:android",
     "prebuild": "expo prebuild --clean",
+    "doctor": "node scripts/doctor.js",
     "typecheck": "tsc --noEmit",
     "check:expo": "expo install --check",
     "export:android": "expo export --platform android --output-dir dist",
-    "check": "npm run typecheck && npm run check:expo && npm run export:android"
+    "check": "npm run doctor && npm run typecheck && npm run check:expo && npm run export:android"
   },
   "dependencies": {
     "expo": "~55.0.24",
     "expo-camera": "~55.0.18",
     "expo-haptics": "~55.0.14",
     "react": "19.2.0",
-    "react-native": "0.83.6"
+    "react-native": "0.83.10"
   },
   "devDependencies": {
     "@types/react": "~19.2.10",
